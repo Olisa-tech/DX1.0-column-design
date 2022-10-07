@@ -39,7 +39,11 @@ span{
 .heading{
     margin-bottom: 20px;
 }
+
+
 /* ===== First section starts here===== */
+
+
 span{
     color: var(--main-color);
 }
@@ -102,3 +106,37 @@ span{
 
 /* ===== Second section ends here===== */
  
+
+.thirdsection{
+    /* border: 3px solid black; */
+    display: flex;
+    justify-content: center;
+    padding: 50px 0;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+
+
+}
+
+.thirdsection-rightdiv{
+    /* border: 3px solid purple; */
+    background: var(--main-color);
+    padding: 40px 25px;
+    height: 460px;
+    width: 320px;
+}
+
+.thirdsection-rightdiv p{
+    margin-bottom: 25px;
+}
+.thirdsection-leftdiv{
+    /* border: 3px solid black; */
+    height: 460px;
+    width: 320px;
+    background: url("./images/image3.jpg");
+    background-size: cover;
+}
+
+
+
