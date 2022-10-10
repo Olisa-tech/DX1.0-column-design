@@ -17,6 +17,7 @@ img{
     height: 460px;
     border: 3px solid black;
     display: flex;
+    
 }
 .firstsection-leftdiv{ padding: 20px;
     width: 50%;
@@ -138,5 +139,42 @@ span{
     background-size: cover;
 }
 
+/* <!-- footer section starts here --> */
+footer{
+    background: var(--main-color);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 0;
+    color: var(--white-color);
+}
+
+.footer-icon{
+    margin: 0 5px;
+}
+
+.footericons-container{
+    width: 200px;
+    font-size: 22px;
+}
+
+a{
+    color: var(--white-color);
+    text-decoration: none;
+}
+
+/* footer section ends here */
+
+/* safety measure starts here */
+
+.firstsection,
+.secondsection,
+.thirdsection,
+footer{
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+/* footer section ends here */
 
 

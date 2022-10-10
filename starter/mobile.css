@@ -43,9 +43,25 @@
 
 }
 
+/* third section starts here */
+
 .thirdsection{
     flex-direction: column-reverse;
     background: var(--gray-color);
 }
 
+.thirdsection-leftdiv{
+    margin-top: 30px;
+}
+}
+
+/* third section ends here */
+
+footer{
+    flex-direction: column;
+    padding: 10px 30px;
+    text-align: center;
+}
+.footericons-container{
+    margin: 10px 0;
 }
