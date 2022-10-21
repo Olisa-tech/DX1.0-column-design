@@ -15,7 +15,7 @@ img{
 /* ===== First section starts here===== */
 .firstsection{
     height: 460px;
-    border: 3px solid black;
+    /* border: 3px solid black; */
     display: flex;
     
 }
@@ -175,6 +175,10 @@ footer{
     margin: 0 auto;
 }
 
-/* footer section ends here */
+.load-hidden {
+    visibility: hidden;
+}
+
+/* safety measure ends here */
 
 
